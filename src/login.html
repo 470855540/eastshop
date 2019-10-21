@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="https://www.ocj.com.cn/common/images/favicon.png" type="image/x-icon" />
+    <title>登录东方购物-东方购物</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1443863_l1i5lvlpsnm.css">
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <script src="./js/jquery.idcode.js"></script>
+    <script src="./js/jquery.cookie.js"></script>
+    <script src="./js/layer/layer.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="main">
+            <ul class="left">
+                <li>欢迎光临 OCJ.COM.CN</li>
+                <li class="nologin"><a href="./login.html">登录</a></li>
+                <li class="nologin"><a href="./register.html">注册</a></li>
+                <li class="inlogin">
+                    <div>
+                        <button>退出登录</button>
+                    </div>
+                    <a href="javascript:;"></a>
+                </li>
+                <li>送货至：</li>
+                <li>
+                    <span class="iconfont icon-icon056"></span>
+                    <span>湖南</span>
+                    <span>[<a href="javascript:;">更换</a>]</span>
+                </li>
+            </ul>
+            <ul class="right">
+                <li><span class="iconfont icon-wo"></span><a href="javascript:;">我的购物</a><span
+                        class="iconfont icon-arrow-left"></span></li>
+                <li><span class="iconfont icon-kefu"></span><a href="javascript:;">客户中心</a></li>
+                <li><span class="iconfont icon-icon017"></span><a href="javascript:;">移动版</a></li>
+                <li><span class="iconfont icon-tv"></span><a href="javascript:;">TV版</a></li>
+                <li><span class="iconfont icon-qrcode"></span>微信</li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="main">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./images/cplogo0.png" alt="">
+                </a>
+            </div>
+            <div class="search">
+                <form>
+                    <p>
+                        <input type="text">
+                    </p>
+                    <button>搜索</button>
+                </form>
+                <div class="bottom">
+                    <ul>
+                        <li><a href="javascript:;">奥莱Vol.12上新</a></li>
+                        <li><a href="javascript:;">时令鲜生</a></li>
+                        <li><a href="javascript:;">秋日出游正当时</a></li>
+                        <li><a href="javascript:;">新人专享</a></li>
+                        <li><a href="javascript:;">超级电器节</a></li>
+                    </ul>
+                    <a href="javascript:;">销售排行榜</a>
+                </div>
+            </div>
+            <div class="img1">
+                <a href="javascript:;">
+                    <img src="./images/1_20190919171128_49.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="loginbox">
+                <div class="leftbox">
+                    <div class="inner">
+                        <ul>
+                            <li><a href="javascript:;"><img src="./images/1_20190919171256_39.jpg" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="./images/1_20180704150846_87.jpg" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="./images/1_20190531162422_64.jpg" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <ol>
+                        <li class="create"></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                </div>
+                <div class="rightbox">
+                    <form>
+                        <p>
+                            <div>登录名</div><input type="text" name="uname" placeholder="用户名/手机/邮箱">
+                        </p>
+                        <p>
+                            <div>密码</div><input type="password" name="upwd">
+                        </p>
+                        <p>
+                            <div>验证码:</div><input type="text" id="Txtidcode" class="txtVerification"><span id="idcode"></span>
+                        </p>
+                        <p>
+                            <button>登录</button>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="" checked>记住登录名<a href="./register.html">免费注册</a>
+                        </p>
+                    </form>
+                    <div class="bottom">
+                        <div class="left">
+                            其他登录方式：
+                        </div>
+                        <div class="right">
+                            <a href="javascript:;"><img src="./images/img.weibo.mini.gif"></a>
+                            <a href="javascript:;"><img src="./images/img.alipay.mini.gif"></a>
+                            <a href="javascript:;"><img src="./images/Connect_logo_1.png"></a>
+                            <a href="javascript:;"><img src="./images/WEIXIN.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="main">
+            <div class="top">
+                <div class="left">
+                    <div>
+                        <h4><img src="./images/newflootimg0.png"></h4>
+                        <ul>
+                            <li class="title">订购指南</li>
+                            <li><a href="javascript:;">会员注册</a></li>
+                            <li><a href="javascript:;">订购方式</a></li>
+                            <li><a href="javascript:;">交换/退货</a></li>
+                            <li><a href="javascript:;">发票指南</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4><img src="./images/newflootimg1.png"></h4>
+                        <ul>
+                            <li class="title">支付配送</li>
+                            <li><a href="javascript:;">支付方式</a></li>
+                            <li><a href="javascript:;">配送时间</a></li>
+                            <li><a href="javascript:;">配送范围</a></li>
+                            <li><a href="javascript:;">免费配送</a></li>
+                            <li><a href="javascript:;">有关验货</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4><img src="./images/newflootimg2.png"></h4>
+                        <ul>
+                            <li class="title">顾客中心</li>
+                            <li><a href="javascript:;">使用条款</a></li>
+                            <li><a href="javascript:;">积分规则</a></li>
+                            <li><a href="javascript:;">退换货政策</a></li>
+                            <li><a href="javascript:;">信息保护</a></li>
+                            <li><a href="javascript:;">更正说明</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4><img src="./images/newflootimg3.png"></h4>
+                        <ul>
+                            <li class="title">会员社区</li>
+                            <li><a href="javascript:;">会员权益</a></li>
+                            <li><a href="javascript:;">会员俱乐部</a></li>
+                            <li><a href="javascript:;">便民中心</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4><img src="./images/newflootimg4.png"></h4>
+                        <ul>
+                            <li class="title">特色服务</li>
+                            <li><a href="javascript:;">分期付款</a></li>
+                            <li><a href="javascript:;">企业团购</a></li>
+                            <li><a href="javascript:;">营销联盟</a></li>
+                            <li><a href="javascript:;">上门服务</a></li>
+                            <li><a href="javascript:;">免费退换货</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4><img src="./images/newflootimg6.png"></h4>
+                        <ul>
+                            <li class="title">商家合作</li>
+                            <li><a href="javascript:;">合作招商</a></li>
+                            <li><a href="javascript:;">合作伙伴</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="top">
+                        <h4>公告事项</h4>
+                        <div id="textanimate">
+                            <div><a href="javascript:;">The Face庆生荟抽奖活动名单公告</a></div>
+                            <div><a href="javascript:;">7月B刊（151期）目录活动中奖公告</a></div>
+                            <div><a href="javascript:;">“7月24日昂立超级品牌日”活动中奖公告</a></div>
+                            <div><a href="javascript:;">资生堂品牌活动中奖公告</a></div>
+                            <div><a href="javascript:;">152期目录活动（8月A）中奖公告</a></div>
+                            <div><a href="javascript:;">152期目录活动（8月B）中奖公告</a></div>
+                        </div>
+                        <span><a href="javascript:;">更多</a></span>
+                    </div>
+                    <div class="bottom">
+                        <a href="javascript:;"><img src="./images/1_20150814190801_94.jpg"></a>
+                        <a href="javascript:;"><img src="./images/1_20150814190832_60.jpg"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="top">
+                    <a href="javascript:;" class="btn"><img src="./images/logo_dfmz.png"></a>
+                    <span>旗下</span>
+                    <div class="right">
+                        <div class="textIntroFooter">
+                            上海东方电视购物有限公司 版权所有  &nbsp; &nbsp; Copyright © 2004-2019 ocj.com.cn All Rights Reserved
+                         <div class="textIntroFooter">免费咨询及订购热线：上海800-708-8000（固话）   &nbsp; &nbsp; （021）51119900（手机）   &nbsp; &nbsp; 全国800-988-8000（固话） &nbsp; &nbsp;  400-889-8000（手机）</div>
+                         <div class="textIntroFooter">
+                             信息系统安全等级保护评定备案证明编号 31001099027-00001<span></span>信息网络传播视听节目许可证：0908230<span></span><a href="http://cdnimg.ocj.com.cn/common/certificate/food.pdf">食品经营许可证：JY13101100062462</a>
+                         </div>	   
+                         <div class="textIntroFooter"><a href="http://cdnimg.ocj.com.cn/common/certificate/medicinal.pdf">互联网药品信息服务资格证书（沪）- 非经营性 - 2019-0072</a> &nbsp; &nbsp; <a href="http://cdnimg.ocj.com.cn/common/certificate/medicalEquipment.pdf">沪杨食药监械经营许20187004号</a>&nbsp; &nbsp; 违法和不良信息举报电话：（021）51119921</div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <ul>
+                        <li><a href="javascript:;"><img src="./images/gawb.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="./images/img.footer.icon.1.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="./images/star5.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="./images/img.footer.icon.11.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="./images/img.footer.icon.3.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="./images/img.footer.icon.4.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="./images/img.footer.icon.8.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="./images/img.footer.icon.9.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="./images/img.footer.icon.wanggou1.png" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="./images/962110.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="gotop">
+            <div class="inner">
+                <ul>
+                    <li class="create"><img src="./images/1_20190927155818_68.jpg"></li>
+                    <li><img src="./images/1_20180813173124_81.jpg"></li>
+                    <li><img src="./images/1_20170411145122_63.jpg"></li>
+                    <li><img src="./images/1_20190203100732_48.jpg"></li>
+                </ul>
+            </div>
+            <ol>
+                <li class="create"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+            <div class="bird">
+                <a href="javascript:;">东东客服</a>
+            </div>
+            <div class="go-top">返回顶部</div>
+        </div>
+    </footer>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
